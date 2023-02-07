@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial;
+            background-color: rgb(2, 47, 73);
+            color: white;
+        }
+
+        .box {
+            width: 300px;
+            padding: 40px;
+            height: 400px;
+            background-color: rgb(17, 11, 11);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin: 0 auto;
+            margin-top: 80px;
+        }
+
+        .box input[type='text'] {
+            border: 0;
+            background-color: rgb(17, 11, 11);
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+            border: 2px solid rgb(8, 8, 104);
+            padding: 14px 10px;
+            width: 200px;
+            outline: none;
+            color: white;
+            border-radius: 20px;
+        }
+
+        .box input[type='password'] {
+            border: 0;
+            background-color: rgb(17, 11, 11);
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+            border: 2px solid rgb(8, 8, 104);
+            padding: 14px 10px;
+            width: 200px;
+            outline: none;
+            color: white;
+            border-radius: 20px;
+        }
+
+        .box input[type='text']:focus {
+            background-color: rgb(21, 181, 21);
+        }
+
+        .box input[type='password']:focus {
+            background-color: rgb(21, 181, 21);
+
+        }
+
+        .box input[type='submit'] {
+            border: 0;
+            background-color: rgb(17, 11, 11);
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+            border: 2px solid rgb(8, 8, 104);
+            padding: 14px 40px;
+            outline: none;
+            color: white;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+
+        .box input[type="submit"]:hover {
+            background: #2ecc71;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="" class="box">
+        <h1>WELCOME</h1>
+        <h3>LET'S GET STARTED</h3>
+        <input type="text" placeholder="Username">
+        <input type="password" placeholder="Password">
+        <input type="submit" value="Login">
+    </form>
+</body>
+
+</html>
